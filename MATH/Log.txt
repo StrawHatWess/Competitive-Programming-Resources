@@ -1,0 +1,6 @@
+-C++: log(a) (base e)
+      log10(a) (base 10)
+     **logb(a)=log(a)/log(b)
+
+
+

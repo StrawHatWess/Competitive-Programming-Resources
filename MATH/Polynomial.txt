@@ -1,0 +1,2 @@
+Long division with polynomials: https://www.youtube.com/watch?v=_FSXJmESFmQ
+Horner's rule: https://www.youtube.com/watch?v=zEvfkSuPqWk&t=497s

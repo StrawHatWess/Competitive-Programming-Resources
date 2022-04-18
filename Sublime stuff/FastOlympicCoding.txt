@@ -1,0 +1,14 @@
+.TestManager
+ctrl+alt+b compile and run
+ctrl+enter new test
+ctrl+x kill process
+ctrl+d delete test
+ctrl+shift+up / ctrl+shift+down  swap tests
+
+.Stress testing:
+<name>.cpp 
+<name>__Good.cpp 
+<name>__Generator.cpp 
+
+.Lint
+

@@ -1,0 +1,18 @@
+map<int,int> mp;
+map<int, int> map2(map.begin(), map.end());  // assigning the elements from map to map2
+
+-Functions:
+
+mp.insert({key,val)};     or   mp[key]=val;
+mp.erase(4); // removes element with key = 4 
+mp.erase(mp.begin(), mp.find(3));  // remove all elements up to element with key=3 in mp
+mp.clear();
+mp.size();
+mp.max_size();
+mp.empty();
+mp.count(key); (1: key exists/ or 0: doesn't exist)
+
+-Iterating: (in ascending order)
+
+for(auto it:mp)
+	cout << it.first << ' ' << it.second;

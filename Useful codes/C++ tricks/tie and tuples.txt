@@ -1,0 +1,7 @@
+int a,b,c,d;    
+tie(a,b,c,d)=make_tuple(1,2,3,4);
+tie(a,b,c,d)=make_tuple(d,c,b,a);
+
+pi p={d,c};
+tie(a,b)=p;
+tie(a,ignore,b,ignore)=make_tuple(1,0,5,0);

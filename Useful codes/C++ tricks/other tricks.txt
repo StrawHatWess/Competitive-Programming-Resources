@@ -1,0 +1,16 @@
+1/
+
+for(j = 1; j <= m; j++)
+    cout << a[i][j] << " ";
+cout << "\n";
+
+is equivalent to:
+
+for(j = 1; j <= m; j++)
+    cout << a[i][j] << " \n"[j == m];
+
+
+2/
+s.begin()   can be written as   begin(s)   
+s.end() --> end(s)
+

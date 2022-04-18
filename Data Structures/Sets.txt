@@ -1,0 +1,36 @@
+**Set/unordered_set:
+-Initialize: 
+set <int> s;
+set <int> s2(s.begin(), s.end());
+
+-Functions:
+s.insert(val);
+s.erase(val);
+(only set): s.erase(s.begin(), s.find(val));  // removes all elements up to val in s 
+s.clear();
+s.size(); 
+s.max_size();
+s.empty();
+
+(only set) cout << *s.lower_bound(val);
+(only set) cout << *s.upper_bound(val);
+
+-Iterating:
+
+for(auto it: s) cout << it <<' ';
+auto it=s.find(val); if(it!=s.end()) cout <<*it;
+auto it=s.end(); it--; cout <<*it;  //printing largest element in a set
+
+
+**Multiset: 
+Same functions as set.
+
+s.erase(val);  //erases all instances of an element
+s.erase(s.find(val)); //erases only one instance of the element
+
+**Indexed_set: (order_statistics tree)
+Same as set. (insert/erase/empty/lower_bound/...)
+(doesn't support count() function)
+ +
+*s.find_by_order(idx); //iterator to idx (0_indexed)
+s.order_of_key(val); //position of val (0_indexed)

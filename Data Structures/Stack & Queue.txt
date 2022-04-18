@@ -1,0 +1,18 @@
+-Stack:
+s.empty();    O(1)
+s.size();     O(1)
+s.top();      O(1)
+s.push(val);  O(1)
+s.pop();      O(1)
+
+
+-Queue:
+
+empty();
+size();
+swap(q1,q2); The queues must be of same type, although sizes may differ.
+push(); 
+emplace();
+pop();
+front();
+back();

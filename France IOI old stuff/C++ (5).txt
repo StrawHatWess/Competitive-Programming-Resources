@@ -1,0 +1,71 @@
+Niv2:
+-Chapitre 4:Fonctions
+
+#include <iostream>
+using namespace std;
+
+void ligneEtoiles()
+{
+   for (int iCol = 0; iCol < 40; iCol = iCol + 1)
+   {
+      cout << '*';
+   }
+   cout << endl;
+}
+int main()
+{
+   ligneEtoiles();
+   double nombreLu;
+   cout << "Entrez un nombre décimal : ";
+   cin >> nombreLu;
+   cout << "Le carré de ce nombre est " << nombreLu * nombreLu << endl;
+   ligneEtoiles();
+}
+?
+****************************************
+Entrez un nombre décimal : 42.234
+Le carré de ce nombre vaut 1783.710756
+****************************************
+
+---------------
+*Fonctions à un paramètre:
+
+On va donc rendre notre fonction paramétrable avec un argument caractere (et nous changeons son nom) :
+
+void ligneCaracteres(char caractere)
+{
+   for (int iCol = 0; iCol < 40; iCol = iCol + 1)
+   {
+      cout << caractere;
+   }
+   cout << endl;
+}
+//Au sein de cette fonction, l'identifiant caractere représente une variable, qui a été initialisée à la valeur indiquée lors de l'appel.
+Ex appel:
+ligneCaracteres('*');
+---------------
+
+****Voir Cours :Modifier une variable à l'intérieur d'une fonction
+
+------------
+*Fonctions à plusieurs paramètres:
+
+void ligneCaracteres(char caractere, int longueur)
+{
+   for (int iCol = 0; iCol < longueur; iCol = iCol + 1)
+   {
+      cout << caractere;
+   }
+   cout << endl;
+}
+
+Appel:
+ligneCaracteres('*', 40);
+ligneCaracteres('-', 35);
+
+//Remarque : si l'on a défini que la fonction prenait deux paramètres, on ne peut plus l'appeler en n'en fournissant qu'un seul. 
+En C++, il est toutefois possible de proposer plusieurs fonctions de même nom avec des paramètres différents (on appelle ça la « surdéfinition » ou « surcharge ») ou de rendre certains paramètres facultatifs.
+------------------
+*** Voir cours 'Valeur de retour' dans découverte 'Le plus petit de deux entiers'
+------------
+**Voir cours 'Prototype de fonction'

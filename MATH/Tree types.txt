@@ -1,0 +1,21 @@
+ *Binary tree: In computer science, a binary tree is a tree data structure in which each node has at most two children, 
+which are referred to as the left child and the right child.
+It is also possible to interpret a binary tree as an undirected, rather than a directed graph, 
+in which case a binary tree is an ordered, rooted tree. (going right or left matters) (N nodes form Cat(N) possible tree)
+
+ *Full binary tree: A Tree in which each node has exactly zero or two children is called full binary tree. 
+
+ *Perfect binary tree: A Tree in which the degree of each node is 2 except leaf nodes is called perfect binary tree.
+
+ *Rooted tree: Any tree that has a root node (going right or left doesn't matter) (N+1 nodes form Cat(N) possible tree)
+
+ *Labeled Binary tree: A Binary Tree is labeled if every node is assigned a label. (N nodes form Cat(N)*N! poosible tree)
+ Example: A_B-C 
+
+ *Unlabeled Binary Tree: A Binary Tree is unlabeled if nodes are not assigned any label. (N nodes form Cat(N) possible tree)
+ Ex: o--o--o
+ 
+ *Labeled tree: N nodes can form 4^(N-2) different trees (two trees are different if either their structure or labelling is different.)
+ (Cayley's formula)
+
+ 

@@ -1,0 +1,14 @@
+
+vpi vec;
+vec.emplace_back(1,-1); 
+/*
+emplace_back is faster than push_back 'cause it just construct value 
+at the end of vector but push_back construct it somewhere else and then 
+move it to the vector.
+*/
+
+set<int> s;
+s.emplace(1);
+
+priority_queue<pi> q;
+q.emplace(1,-1);

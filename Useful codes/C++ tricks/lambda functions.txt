@@ -1,0 +1,7 @@
+auto f = [](int a, int b) -> int { return a+b; };
+int x=f(5,5);
+
+
+sort( all(v), [](int a, int b){ return a<b; } );
+
+(We can omit the return value (--> int))

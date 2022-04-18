@@ -1,0 +1,21 @@
+-'return 0;' c'est quoi?
+-Les opérateurs modulo
+-------
+-Kermesse (stage3)
+-Construction d'une pyramide (code) (stage 3) + Section culture intéressante
+-Tab de multiplication
+-Bornes kilométriques (chapitre 5)
+-Tarifs dégressifs (chap 5)
+-Revoir correction Type d'arbres (chap 6)*******/ Tarifs de l'auberge
+-Amitié entre gardes /Personne disparue/zones de couleurs(chap 7)
+-Département d'architecture : construction d'une pyramide (chap8) (+ voir section culture)
+----------------
+(Niv2)
+-Augmentation des taxes 
+***-La roue de la fortune (voir Astuce correction)
+-Grand inventaire
+*-Visite de la mine
+-Course à trois jambes
+-Choix des emplacements
+**-ngms sns vlls
+-Le plus petit de deux entiers

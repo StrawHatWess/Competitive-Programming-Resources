@@ -1,0 +1,11 @@
+Probs à réviser:
+-correction Découverte 'Bâtiment et allée'
+*-Fréquences d’apparition
+
+Probs à revoir:
+-Nombre d'amour
+****-Titres palindromiques
+*******-Lettre la plus fréquente
+**-Validité des noms de variables
+**-Fréquentation de la bibliothèque
+**-Consonnes
